@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ffly4u)(type Legacy)(uri ${KICAD_USER_TEMPLATE_DIR}/nrf52832/libs/ffly4u.lib)(options "")(descr ""))
+)
