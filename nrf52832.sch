@@ -1672,4 +1672,65 @@ Text Label 8800 4950 0    50   ~ 0
 BB_FB
 Text Label 9900 5750 3    50   ~ 0
 LPWR_LDO
+$Comp
+L aliexpress:WX-DC12003 U8
+U 1 1 6173728E
+P 5850 6000
+F 0 "U8" H 5850 6465 50  0000 C CNN
+F 1 "WX-DC12003" H 5850 6374 50  0000 C CNN
+F 2 "aliexpress:WX-DC12003_vertical" H 5850 6000 50  0001 C CNN
+F 3 "" H 5850 6000 50  0001 C CNN
+	1    5850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 61748ABC
+P 5100 5950
+F 0 "J1" H 5018 5625 50  0000 C CNN
+F 1 "Conn_01x02" H 5018 5716 50  0000 C CNN
+F 2 "smdpad:smdpad_01x02_2.54_3.81_2.54" H 5100 5950 50  0001 C CNN
+F 3 "~" H 5100 5950 50  0001 C CNN
+	1    5100 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 5850 5400 5850
+Wire Wire Line
+	5400 5850 5400 5800
+Wire Wire Line
+	5400 5800 5450 5800
+Wire Wire Line
+	5450 6000 5400 6000
+Wire Wire Line
+	5400 6000 5400 5950
+Wire Wire Line
+	5400 5950 5300 5950
+$Comp
+L power:GND #PWR0140
+U 1 1 6175B38D
+P 6400 6100
+F 0 "#PWR0140" H 6400 5850 50  0001 C CNN
+F 1 "GND" H 6405 5927 50  0000 C CNN
+F 2 "" H 6400 6100 50  0001 C CNN
+F 3 "" H 6400 6100 50  0001 C CNN
+	1    6400 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 6100 6400 6000
+Wire Wire Line
+	6400 6000 6250 6000
+Text Label 6250 5800 0    50   ~ 0
+Vreg
+Wire Notes Line
+	4850 5450 4850 6350
+Wire Notes Line
+	4850 6350 6550 6350
+Wire Notes Line
+	6550 6350 6550 5450
+Wire Notes Line
+	6550 5450 4850 5450
+Text Notes 5000 6300 0    50   ~ 0
+AC alimentation
 $EndSCHEMATC

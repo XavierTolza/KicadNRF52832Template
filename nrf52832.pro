@@ -1,4 +1,4 @@
-update=ven. 22 oct. 2021 16:17:40
+update=ven. 22 oct. 2021 16:49:17
 version=1
 last_client=kicad
 [general]
@@ -238,6 +238,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=AC
+Clearance=0.5
+TrackWidth=1
+ViaDiameter=0.8
+ViaDrill=0.5
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=PWR
 Clearance=0.13
 TrackWidth=0.2
@@ -248,7 +259,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/3]
 Name=RF
 Clearance=0.18
 TrackWidth=0.8
